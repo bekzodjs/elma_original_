@@ -1,0 +1,7 @@
+<template>
+<div class="page">
+ <section class="horeca-hero"><div class="container"><span class="eyebrow">ELMA FOR BUSINESS</span><h1>Brendingizga mos<br><em>HoReCa yechimlari.</em></h1><p>Mehmonxona, restoran, kafe va boshqa servis bizneslari uchun brendlangan salfetkalar va dispenserlar.</p><RouterLink to="/partnership" class="btn btn-primary">Loyiha haqida gaplashamiz →</RouterLink></div></section>
+ <section class="section"><div class="container"><div class="section-head"><div><span class="eyebrow">Maxsus xizmat</span><h2>Logoingizni <em>ko‘rsating.</em></h2></div></div><div class="horeca-cards"><div><span>01</span><h3>Quruq salfetkalar</h3><p>Stol servisi uchun logotip tushirilgan premium qog‘oz salfetkalar.</p></div><div><span>02</span><h3>Nam salfetkalar</h3><p>Mehmonlar uchun qulay, gigiyenik va brendlangan individual salfetkalar.</p></div><div><span>03</span><h3>Dispenserlar</h3><p>Sanitariya nuqtalari uchun zamonaviy va tejamkor dispenser tizimlari.</p></div></div></div></section>
+ <section class="section soft"><div class="container split-business"><div><span class="eyebrow">Nega ELMA?</span><h2>Professional servis<br><em>bir qadam narida.</em></h2><ul class="check-list"><li>Yuqori sifatli xomashyo</li><li>Individual dizayn va brending</li><li>Katta tirajlar uchun qulay ishlab chiqarish</li><li>O‘zbekiston bo‘ylab yetkazib berish</li></ul></div><div class="quote-card">“Kichik detal katta taassurot yaratadi.”<small>— ELMA HoReCa</small></div></div></section>
+</div>
+</template>
