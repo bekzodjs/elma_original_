@@ -509,22 +509,16 @@ const rangeStart = computed(() => {
 
 
 const rangeEnd = computed(() => {
-
   return Math.min(
     page.value * perPage,
     filtered.value.length
   )
-
 })
-
-
 const pageButtons = computed(() => {
-
   return Array.from(
     {
       length: pageCount.value
     },
-
     (_, i) => i + 1
 
   )
@@ -552,60 +546,39 @@ function goToPage(newPage) {
   router.push({
 
     query: {
-
       ...route.query,
-
       page: newPage
-
     }
-
   })
-
 }
-
-
 /* ========================= */
 /* CATEGORY DESIGN */
 /* ========================= */
 
 function categoryLetter(id) {
-
   if (id === 'dispensers') {
     return 'Z'
   }
-
   if (id === 'wet') {
     return 'W'
   }
-
   if (id === 'universal') {
     return 'U'
   }
-
   return 'V'
-
 }
-
-
 function categoryShort(id) {
-
   if (id === 'dispensers') {
     return 'DISPENSER'
   }
-
   if (id === 'wet') {
     return 'WET WIPES'
   }
-
   if (id === 'universal') {
     return 'UNIVERSAL'
   }
-
   return 'PAPER PRODUCTS'
-
 }
-
-
 function categoryLabel(id) {
 
   if (id === 'paper') {

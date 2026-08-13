@@ -33,25 +33,19 @@
 
 
     <div class="product-body">
-
       <small>{{ categoryName }}</small>
-
       <h3>{{ product.name }}</h3>
-
       <div class="spec-mini">
         <span>{{ product.size }}</span>
         <span>{{ product.layers }}</span>
       </div>
-
       <RouterLink
         :to="`/product/${product.id}`"
         class="product-link"
       >
         Batafsil <b>↗</b>
       </RouterLink>
-
     </div>
-
   </article>
 </template>
 
@@ -158,64 +152,39 @@ const categoryName = computed(() => {
 /* HOVER MASK */
 
 .product-hover-mask {
-
   position: absolute;
-
   inset: 0;
-
   z-index: 2;
-
   display: flex;
-
   align-items: center;
   justify-content: center;
-
   background: rgba(130, 20, 30, 0.72);
-
   opacity: 0;
-
   transition: opacity 0.3s ease;
 
 }
 
-
 .product-image:hover .product-hover-mask {
-
   opacity: 1;
-
 }
 
-
 .hover-content {
-
   display: flex;
-
   flex-direction: column;
-
   align-items: center;
-
   gap: 8px;
-
   color: white;
-
   text-align: center;
-
 }
 
 
 .hover-content span {
-
   font-size: 12px;
-
   letter-spacing: 2px;
-
   opacity: .8;
-
 }
 
-
 .hover-content strong {
-
   font-size: 20px;
 
 }
